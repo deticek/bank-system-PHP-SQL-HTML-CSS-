@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>online bank</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Add some basic styling */
+        .pen-title {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .module.form-module {
+            width: 400px;
+            margin: 0 auto;
+        }
+        .toggle i {
+            cursor: pointer;
+        }
+        .form {
+            margin-bottom: 20px;
+        }
+        .cta a {
+            text-align: center;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="pen-title">
+        <h1>ONLINE BANK</h1>
+       
+    </div>
+
+    <div class="module form-module">
+        
+        
+        <div class="form">
+            <h2>Login to your account</h2>
+            <form>
+                <input type="text" placeholder="Username">
+                <input type="password" placeholder="Password">
+                <button>Login</button>
+            </form>
+        </div>
+        
+        <div class="form">
+            <h2>Login to your account</h2>
+            <form action="login.php" method="post">
+                <input type="email" name="email" placeholder="Email Address">
+                <input type="number" max="9999" name="pin" placeholder="PIN number">
+                <button type="submit">Login</button>
+            </form>
+            <br><br>
+            <button onclick="window.location.href='register.html'">Create account</button>
+        </div>
+        
+        <div class="cta">
+            <a href="http://andytran.me">Forgot your password?</a>
+        </div>
+    </div>
+
+
+</body>
+</html>
